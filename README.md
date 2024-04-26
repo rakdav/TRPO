@@ -102,29 +102,6 @@
 
 * [Spring Boot веб-приложение с нуля](https://java-master.com/spring-boot-%D0%B2%D0%B5%D0%B1-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81-%D0%BD%D1%83%D0%BB%D1%8F/)
 
-## Экскурс в сетевые технологии
-
-![](net_tech.jpg)
-
-* [IP адрес](https://www.youtube.com/watch?v=6tFGoiok0u8)
-
-* [Маршрутизатор, коммутатор и хаб](https://www.youtube.com/watch?v=Bwg-om5NnmQ)
-
-* [VPN](https://www.youtube.com/watch?v=TNJxATppH4E)
-
-* [Модель OSI за 7 минут](https://www.youtube.com/watch?v=je0QFU7p5Oo)
-
-* [TCP и UDP](https://www.youtube.com/watch?v=yMSJKBQINAc&t=19s)
-
-* [Виды сетевых атак](https://www.youtube.com/watch?v=T_iycKFPGEM)
-
-* [LAN и WAN](https://www.youtube.com/watch?v=z6ppjg6xAbQ)
-
-* [DNS сервер](https://www.youtube.com/watch?v=t2NMbSarXC4&t=124s)
-
-* [DHCP](https://www.youtube.com/watch?v=XPRYaGCkXJ8)
-
-* [Ethernet](https://www.youtube.com/watch?v=jLGadArowCE)
 
 ## Kubernetes
 
@@ -191,14 +168,3 @@
 * [Лабораторная работа №2: создание кластера Kubernetes и деплой приложения](Kubernetes.md)
 
 * [Лабораторная работа №3: CI/CD и деплой приложения в Heroku](CI_CD.md)
-
-## Форма приема зачета
-
-Этап 1. Ответы вопросы. Если этап не пройден, то прием зачета прекращается - отправка на пересдачу в следующую сессию.
-
-Этап 2. Написание REST API и деплой в production. Если этап не пройден, то прием зачета прекращается - отправка на пересдачу в следующую сессию.
-
-Зачет автоматом может быть поставлен в случае выполнения дополнительных улучшений проекта:
-* Подключение SonarQube к проекту, и запуск его на этапе сборки. См. [пример](https://www.javacodegeeks.com/2018/01/ci-cd-springboot-applications-using-travis-ci.html).
-* Реализация в API не менее 3-х таблиц и связей между ними через Hibernate ORM @OneToMany, @ManyToOne... с раширением числа ендпоинтов, соответственно.
-* Написание unit-тестов на слой сервисов и контроллеров, покрытие тестами - не менее 80%.
